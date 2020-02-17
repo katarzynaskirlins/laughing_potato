@@ -1,13 +1,16 @@
 body {
   font-family: Arial;
   font-size: 16px;
-
 }
 
 .header {
   color: white;
 }
-p.header{text-align: left;}
+
+p.header {
+  text-align: left;
+}
+
 .title {
   color: #2793EE;
 }
