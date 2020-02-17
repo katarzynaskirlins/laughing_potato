@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/style.css" media="all">
 	<title>Strona startowa HTML&CSS Warsztaty</title>
 </head>
 <body>
@@ -23,8 +24,8 @@
 		</nav>
 	</header>
 	<br>
-	<h2> O projekcie </h2>
-	<p>"Za jeszcze dziwniejszy uważam upór czy raczej konserwatyzm, z jakim przez długie wieki stosowano archaiczny sposób magazynowania wszelkiej wiedzy w sporządzonych z papieru książkach, jest to zdumiewający dowód bezwładności nawyków
+	<h2 class="header"> O projekcie </h2>
+	<p class="header">"Za jeszcze dziwniejszy uważam upór czy raczej konserwatyzm, z jakim przez długie wieki stosowano archaiczny sposób magazynowania wszelkiej wiedzy w sporządzonych z papieru książkach, jest to zdumiewający dowód bezwładności nawyków
 		przekazywanych z pokolenia na pokolenie. Stosując odziedziczone środki, ludzie często komplikują sobie przez to wiele problemów, które rozważone w oderwaniu od tradycji, dałyby się pokonać znacznie prościej i szybciej." <i>Stanisław Lem</i>
 	</p>
 	<figure>
@@ -32,41 +33,40 @@
 	</figure>
 	<br>
 	<br>
-
 	<article id="portfolio">
-		<h2>Portfolio</h2>
+		<h2 class="title">Portfolio</h2>
 		<section>
-			<h3>HTML</h3>
-			<p> HyperText Markup Language hipertekstowy język znaczników, obecnie jest szeroko wykorzystywany do tworzenia stron interenetowych. </p>
-			<p>
+			<h3 class="subtitle">HTML</h3>
+			<p class="subtitle"> HyperText Markup Language hipertekstowy język znaczników, obecnie jest szeroko wykorzystywany do tworzenia stron interenetowych. </p>
+			<p class="link">
 				<a href="#">Zobacz więcej >></a>
 			</p>
 		</section>
 		<section>
-			<h3>CSS</h3>
-			<p> Cascading Style Sheet to język służący do opisu formy prezentacji (wyświetlania) stron WWW. CSS został opracowany przez organizację W3C w 1996r. </p>
-			<p>
+			<h3 class="subtitle">CSS</h3>
+			<p class="subtitle"> Cascading Style Sheet to język służący do opisu formy prezentacji (wyświetlania) stron WWW. CSS został opracowany przez organizację W3C w 1996r. </p>
+			<p class="link">
 				<a href="#">Zobacz więcej >></a>
 			</p>
 		</section>
 		<section>
-			<h3>W3C</h3>
-			<p>World Wide Web Consortium to organizacja, która zajmuje się ustanawianiem standardów przesyłu stron WWW. Została założona 1 października 1994 roku przez Tima Berners-Lee, twórcę WWW oraz autora pierwszej
+			<h3 class="subtitle">W3C</h3>
+			<p class="subtitle">World Wide Web Consortium to organizacja, która zajmuje się ustanawianiem standardów przesyłu stron WWW. Została założona 1 października 1994 roku przez Tima Berners-Lee, twórcę WWW oraz autora pierwszej
 				przeglądarki internetowej i
 				serwera WWW.</p>
-			<p>
+			<p class="link">
 				<a href="#">Zobacz więcej >></a>
 			</p>
 		</section>
 		<section>
-			<h3>INNE</h3>
-			<p> Dalsze techniki rozwoju strony WWW. </p>
-			<p>
+			<h3 class="subtitle">INNE</h3>
+			<p class="subtitle"> Dalsze techniki rozwoju strony WWW. </p>
+			<p class="link">
 				<a href="#">Zobacz więcej >></a>
 			</p>
 		</section>
 	</article>
-		<h2>Kontakt</h2>
+		<h2 class="title">Kontakt</h2>
 		<form action="adres" method="post">
 			<label>IMIĘ:</label>
 			<input type="text" name="username" required="required" />

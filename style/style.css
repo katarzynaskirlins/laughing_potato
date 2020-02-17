@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+  font-size: 16px;
+
+}
+
+.header {
+  color: white;
+}
+p.header{text-align: left;}
+.title {
+  color: #2793EE;
+}
+
+.subtitle {
+  color: #2793EE;
+  text-align: center;
+}
+
+p.subtitle {
+  color: black;
+}
+
+.link {
+  text-align: center;
+}
+
+footer {
+  color: white;
+  background-color: #FF6A00;
+}
