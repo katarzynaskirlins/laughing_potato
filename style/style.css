@@ -1,14 +1,11 @@
 body {
   font-family: Arial;
   font-size: 16px;
+  color: black;
 }
 
 .header {
   color: white;
-}
-
-p.header {
-  text-align: left;
 }
 
 .title {
@@ -20,12 +17,18 @@ p.header {
   text-align: center;
 }
 
-p.subtitle {
-  color: black;
+.details {
+  text-align: center;
 }
 
-.link {
-  text-align: center;
+a.link1 {
+  color: #FF6A00;
+  background-color: white;
+}
+
+a.link2 {
+  color: white;
+  background-color: #2793EE;
 }
 
 footer {
