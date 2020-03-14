@@ -9,13 +9,17 @@
 
 <body>
 	<header>
-		<div class="search">
-			<form action="http://www.google.pl/search" method="get">
-				<input type="text">
-				<input type="image" src="img/ico_search.png" alt="Submit">
-			</form>
+		<div class='naglowek'>
+			<div class="search">
+				<form action="http://www.google.pl/search" method="get">
+					<input type="text">
+					<input class='lupa' type="image" src="img/ico_search.png" alt="Submit">
+				</form>
+			</div>
+			<div class='logo'>
+				<img class="logo" src="img/logo.png" alt="Logo warsztatów HTML i CSS" />
+			</div>
 		</div>
-		<h1><img class="logo" src="img/logo.png" alt="Logo warsztatów HTML i CSS" /></h1>
 		<nav>
 			<ul>
 				<li>
@@ -26,37 +30,37 @@
 					<a class="link1" href="#kontakt" title="Przejdź na stronę z danymi kontaktowymi">KONTAKT</a></li>
 			</ul>
 		</nav>
+
 	</header>
 	<div class="oprojekcie">
-		<div class="projekt">
-		<h2> O projekcie </h2>
-		<p>"Za jeszcze dziwniejszy uważam upór czy raczej konserwatyzm, z jakim przez długie wieki stosowano archaiczny sposób magazynowania wszelkiej wiedzy
-			w sporządzonych z papieru książkach, jest to zdumiewający dowód bezwładności
-			nawyków przekazywanych z pokolenia na pokolenie. Stosując odziedziczone środki, ludzie często komplikują sobie przez to wiele problemów, które rozważone w oderwaniu od tradycji, dałyby się pokonać znacznie prościej i szybciej." <i>Stanisław
-				Lem</i></p>
+		<div class='main'>
+			<div class="projekt">
+				<h2 class='title1'> O projekcie </h2>
+				<p class='akapit'><span class='cudzy'>"</span>Za jeszcze dziwniejszy uważam upór czy raczej konserwatyzm, z jakim przez długie wieki stosowano archaiczny sposób magazynowania wszelkiej wiedzy
+					w sporządzonych z papieru książkach, jest to zdumiewający dowód bezwładności
+					nawyków przekazywanych z pokolenia na pokolenie. Stosując odziedziczone środki, ludzie często komplikują sobie przez to wiele problemów, które rozważone w oderwaniu od tradycji, dałyby się pokonać znacznie prościej i szybciej<span
+						class='cudzy'>"</span><span class='pochylony'>Stanisław Lem</span></p>
 			</div>
 			<img class="omnie" src="img/o-mnie.jpg" alt="Człowiek trzymający mapę myśli">
+		</div>
 	</div>
 
 	<div class="portfolio">
-			<h2 class="title">Portfolio</h2>
-			<div class="boxes">
+		<h2 class="title">Portfolio</h2>
+		<div class='main'>
 			<section>
 				<div class="box1">
 					<h3 class="subtitle">HTML</h3>
-					<p class="details"> HyperText Markup Language hipertekstowy język znaczników, obecnie jest szeroko wykorzystywany do tworzenia stron interenetowych. </p>
-					<p class="link">
-						<a class="link2-b1" href="#">Zobacz więcej >></a>
-					</p>
+
+					<p class='details'> HyperText Markup Language hipertekstowy język znaczników, obecnie jest szeroko wykorzystywany do tworzenia stron interenetowych. </p>
+					<a class="link2" href="#">Zobacz więcej>></a>
 				</div>
 			</section>
 			<section>
 				<div class="box2">
 					<h3 class="subtitle">CSS</h3>
 					<p class="details"> Cascading Style Sheet to język służący do opisu formy prezentacji (wyświetlania) stron WWW. CSS został opracowany przez organizację W3C w 1996r. </p>
-					<p class="link">
-						<a class="link2-b2" href="#">Zobacz więcej >></a>
-					</p>
+					<a class="link2" href="#">Zobacz więcej>></a>
 				</div>
 			</section>
 			<section>
@@ -65,9 +69,7 @@
 					<p class="details">World Wide Web Consortium to organizacja, która zajmuje się ustanawianiem standardów przesyłu stron WWW. Została założona 1 października 1994 roku przez Tima Berners-Lee, twórcę WWW oraz autora pierwszej
 						przeglądarki internetowej i
 						serwera WWW.</p>
-					<p class="link">
-						<a class="link2-b3" href="#">Zobacz więcej >></a>
-					</p>
+					<a class="link2" href="#">Zobacz więcej>></a>
 				</div>
 			</section>
 
@@ -75,36 +77,35 @@
 				<div class="box4">
 					<h3 class="subtitle">INNE</h3>
 					<p class="details"> Dalsze techniki rozwoju strony WWW. </p>
-					<p class="link">
-						<a class="link2-b4" href="#">Zobacz więcej >></a>
-					</p>
+					<a class="link2" href="#">Zobacz więcej>></a>
 				</div>
 			</section>
-			</div>
-			</div>
-
-
+		</div>
+	</div>
 	<div class="kontakt">
 		<h2 class="title">Kontakt</h2>
-		<div class="formularz">
-		<form action="adres" method="post">
-			<div>
-			<label class="form-title" >IMIĘ:</label>
-			<input class="form" type="text" name="username" required="required" />
+		<div class='main'>
+
+			<form action="adres" method="post">
+				<div>
+					<label class="form-title">IMIĘ:</label>
+					<input class="form-in" type="text" name="username" required="required" />
+				</div>
+				<div>
+					<label class="form-title">ADRES EMAIL:</label>
+					<input class="form-in" type="email" name="email" required="required" />
+				</div>
+				<div class='message'>
+					<label class="form-title">WIADOMOŚĆ:</label>
+					<textarea class="form-in" rows="13" cols="30" id="message">Tutaj wpisz swoją wiadomość</textarea>
+					<input class="link3" type="submit" value="Wyślij!" />
+				</div>
+			</form>
 		</div>
-		<div>
-			<label class="form-title">ADRES EMAIL:</label>
-			<input class="form" type="email" name="email" required="required" />
-		</div>
-		<div>
-			<label class="form-title">WIADOMOŚĆ:</label>
-			<textarea class="form" rows="13" cols="30" id="message">Tutaj wpisz swoją wiadomość</textarea>
-		</div>
-			<input class="link3" type="submit" value="Wyślij!" />
-		</form>
 	</div>
+	<div class='footer'>
+		<footer>Copyright &copy; 2016 - Warsztaty HTML& CSS</footer>
 	</div>
-	<footer>Copyright &copy; 2016 - Warsztaty HTML& CSS</footer>
 </body>
 
 </html>
